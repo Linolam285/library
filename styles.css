@@ -1,0 +1,36 @@
+#addForm {
+    display:none;
+}
+
+body {
+    background-color:blanchedalmond;
+}
+
+
+#bookContainer {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap:2em;
+    row-gap:1em;
+}
+
+.bookDiv {
+    background-color:rgb(247, 224, 224);
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    border:2px solid black;
+    height:20vh;
+    width:20vw;
+}
+
+.read {
+    align-self: end;
+    border:none;
+    color:red;
+}
+
+.remove {
+    margin-top:auto;
+    align-self: end;
+}
